@@ -1,0 +1,78 @@
+# ==========================
+# Java General
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.apk
+*.ap_
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# ==========================
+# Build Directories
+# ==========================
+bin/
+build/
+out/
+target/
+dist/
+release/
+
+# ==========================
+# IDE Specific
+# ==========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ==========================
+# OS / Misc Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Gradle / Maven
+# ==========================
+.gradle/
+!gradle-wrapper.jar
+mvnw
+mvnw.cmd
