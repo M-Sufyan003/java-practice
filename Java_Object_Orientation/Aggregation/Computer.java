@@ -24,12 +24,12 @@ public class Computer {
     void setProcessor(Processor processor)
     {
         this.p1 = new Processor();
-        this.p1.setClockSpeed(processor.getClockSpeed());
+        this.p1.setClockSpeed(2.5);
     }
 
     void print()
     {
         System.out.println("Operating System: "+OS);
-        System.out.println("Clock Speed: "+p1.getClockSpeed()+" GHZ");
+        System.out.println("Clock Speed with Aggregation in Computer Class: "+p1.getClockSpeed()+" GHZ");
     }
 }
