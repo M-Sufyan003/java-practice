@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Student std1=new Student(8791);
-        
-        int rollNumber=std1.getRollNumber();
+    
         String firstName="Muhammad";
         String lastName="Sufyan";
 
